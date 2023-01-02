@@ -1,0 +1,20 @@
+{
+    "id": "list",
+    "title": "Projects",
+    "intro": "I have skills.. so check them out in these projects!",
+    "metaImage": "https://peprojects.dev/alpha-4/jesse/images/details/spark.jpg",
+    "sections": [
+        {
+            "module": "big-heading",
+            "heading": "Projects",
+            "intro": "I made these."
+        },
+        {
+            "module": "project-section",
+            "heading": "some favorites",
+            "intro": "I'd recommend checking them out.",
+            "details": "",
+            "image": ""
+        }
+    ]
+}

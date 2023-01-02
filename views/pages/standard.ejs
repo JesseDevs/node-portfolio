@@ -1,0 +1,24 @@
+<%- include ('../partials/header') %>
+
+<%
+console.log(pageData)
+ %>
+
+<main class="page-content">
+    <% pageData.sections.forEach(section => { %>
+
+    <section class="<%= section.module %>">
+        <inner-column>
+
+            <%- include(`../modules/${section.module}.ejs`,{ section: section })
+            %>
+
+        </inner-column>
+    </section>
+
+
+    <% }); %>
+</main>
+
+
+<%- include ('../partials/footer') %>

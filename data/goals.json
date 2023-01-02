@@ -1,0 +1,39 @@
+[
+	{
+		"title": "week",
+		"goals": [
+			"Use PHP and Wordpress CMS to work on some old and new projects. This would give me some good pratice and create some portfolio ready projects.",
+			"Write more blog post, specifically talking about the PHP CRUD project",
+			"Start making graphics. I want to look into blender and make some 3D models.",
+			"Keep an eye on my portfolio page and search for external feedback.",
+			"Meet with Derek as much as possible."
+		]
+	},
+	{
+		"title": "month",
+		"goals": [
+			"Prepare for incoming lessons about Javascript.",
+			"Use all the tools we’ve gained so far to delelop new ideas and projects.",
+			"Be able to use PHP comfortably in most scenarios.",
+			"Develop current projects for display on portfolio.",
+			"Plan some meditation to avoid burnout."
+		]
+	},
+	{
+		"title": "course",
+		"goals": [
+			"I want to get an entry level job as a software engineer and or designer.",
+			"I would love to make above 100k and be able to say I'm happy in my place of employment. The size of the company is still in question. I see benefits in all scenarios but I belive somewhere to get my feet wet and build a foundation may be best for the long run of my career.",
+			"Be able to say I've learned so much and establish a valuble connection with everyone in the course.",
+			"Continue to learn new skills. New frameworks? 3D graphics? Game Design? More interactive graphics?"
+		]
+	},
+	{
+		"title": "5 years",
+		"goals": [
+			"I'm allowed to be selfish! I want to be in a position that earns well over 200k plus compensation. Be able to work remote with flexiblity and a balance when it comes to work and personal ventures/ adventures. I love Los Angeles, but an opportunity to build a career and be able to do it from anywhere seems like a dream.",
+			"Develop all sorts of connections with people of all backgrounds.",
+			"Create amazing things that push all the limits."
+		]
+	}
+]

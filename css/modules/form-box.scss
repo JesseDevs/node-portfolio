@@ -1,0 +1,101 @@
+.feedback {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 20px;
+	min-height: 15vh;
+	margin-top: 10vh;
+
+	p {
+		font-size: clamp(1.5rem, 3.4vw, 2rem);
+		word-break: break-word;
+		white-space: normal;
+	}
+
+	strong {
+		display: inline-block;
+	}
+}
+
+form.none button {
+	opacity: .1;
+	pointer-events: none;
+}
+
+results {
+	display: block;
+	width: 100%;
+
+	.chant-voice {
+		margin-bottom: var(--tight-space);
+	}
+
+}
+
+form-box {
+	display: grid;
+	column-gap: var(--simple-big-space);
+	align-items: center;
+
+	field {
+		margin-bottom: var(--general-space);
+	}
+
+	input {
+		font-size: clamp(1.2rem, 2.8vw, 1.3rem);
+	}
+
+}
+
+div.change-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	height: 1rem;
+	margin-bottom: var(--simple-big-space);
+
+	input {
+		margin: 0;
+		max-width: 100px;
+	}
+
+	span {
+		font-weight: 500;
+	}
+}
+
+label {
+	padding-bottom: 15px;
+	font-size: clamp(1.2rem, 2.8vw, 1.3rem);
+}
+
+@media(min-width: 635px) {
+	form-box {
+		grid-template-columns: repeat(4, 1fr);
+
+		text-content {
+			grid-column: 1 /span 2;
+
+
+		}
+
+		div.change-form {
+			grid-column: span 4;
+
+		}
+
+		form {
+			grid-column: 1 /span 2;
+		}
+
+		.feedback {
+			grid-column: 3 / span 2;
+			justify-self: center;
+			margin: 0;
+
+			min-height: 0;
+		}
+
+	}
+}

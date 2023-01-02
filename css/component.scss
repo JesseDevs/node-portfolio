@@ -1,0 +1,80 @@
+.action-link {
+	letter-spacing: .05em;
+	font-weight: 600;
+	background-color: transparent;
+	border: var(--thin) solid var(--highlight);
+	color: var(--ink);
+	max-width: 50%;
+
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px var(--simple-space);
+}
+
+.action-link:hover {
+	transition: background-color .3s;
+	background-color: var(--highlight);
+	color: var(--white);
+}
+
+project-card .action-link {
+
+	margin-top: var(--simple-space);
+	margin-left: auto;
+}
+
+blog-card .action-link {
+
+	margin-top: var(--simple-space);
+	padding: 15px;
+
+	max-width: 50%;
+	margin-left: auto;
+}
+
+form .action-link {
+	margin-left: auto;
+	margin-right: 0;
+
+}
+
+#menu-toggle:checked~.menu a:hover {
+	background-color: var(--accent);
+
+}
+
+p a:hover,
+p+a:hover {
+	background-color: var(--highlight);
+	transition: background-color .4s;
+	color: white;
+}
+
+@media(min-width:600px) {
+
+	project-card .action-link,
+	blog-card .action-link {
+
+		grid-column: 4/ span 1;
+		max-width: none;
+		align-self: flex-end;
+		margin: 0;
+	}
+}
+
+.skills {
+	display: flex;
+	text-transform: uppercase;
+	flex-wrap: wrap;
+	gap: 5px;
+	color: var(--highlight);
+
+	p:after {
+		content: ',';
+	}
+
+	p:last-of-type:after {
+		content: '';
+	}
+
+}

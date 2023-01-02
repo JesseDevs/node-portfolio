@@ -1,0 +1,57 @@
+[
+	{
+		"type": "job",
+		"role": "Role",
+		"company": "Company",
+		"startDate": "Start-date",
+		"endDate": "End-date",
+		"duties": [
+			"Duty One.",
+			"Duty Two."
+		],
+		"takeaways": "Takaways",
+		"skills": [
+			"Skill One",
+			"Skill Two",
+			"Skill Three"
+		],
+		"specialNote": "...."
+	},
+	{
+		"type": "job",
+		"role": "Role",
+		"company": "Company",
+		"startDate": "Start-date",
+		"endDate": "End-date",
+		"duties": [
+			"Duty One.",
+			"Duty Two."
+		],
+		"takeaways": "Takaways",
+		"skills": [
+			"Skill One",
+			"Skill Two",
+			"Skill Three"
+		],
+		"specialNote": "...."
+	},
+	{
+		"type": "education",
+		"school": "School",
+		"subject": "",
+		"major": "Major Study",
+		"startDate": "Start-date",
+		"endDate": "End-date",
+		"duties": [
+			"Duty One.",
+			"Duty Two."
+		],
+		"takeaways": "Takaways",
+		"skills": [
+			"Skill One",
+			"Skill Two",
+			"Skill Three"
+		],
+		"specialNote": "...."
+	}
+]

@@ -1,0 +1,85 @@
+@import 'case/diptech.scss';
+@import 'case/double-image.scss';
+@import 'case/double-text.scss';
+@import 'case/goal-block.scss';
+
+.project-page>inner-column {
+    margin: 0;
+    max-width: none;
+}
+
+diptech,
+double-image,
+double-text,
+goal-block {
+
+    picture {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    p {
+        line-height: 1.9;
+    }
+
+    text-content {
+        display: flex;
+        flex-direction: column;
+        gap: var(--simple-space);
+    }
+
+
+}
+
+.links {
+
+    inner-column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--simple-big-space);
+        max-width: 800px;
+        margin: 10px auto;
+    }
+
+    .action-link:first-of-type {
+        display: none;
+    }
+
+    .action-link {
+        max-width: none;
+    }
+}
+
+@media (min-width: 700px) {
+
+    diptech,
+    double-image,
+    double-text,
+    goal-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 60px;
+        row-gap: 0;
+        align-items: center;
+
+        picture {
+            margin: 0;
+            max-width: none;
+        }
+    }
+
+    double-text {
+        align-items: baseline;
+        grid-template-rows: auto auto 100px;
+    }
+
+    diptech text-content,
+    double-text p {
+        margin-bottom: 0;
+    }
+
+    double-text .p-two {
+        grid-row: span 3;
+        align-self: flex-end;
+    }
+}

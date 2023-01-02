@@ -1,0 +1,198 @@
+[
+    {
+        "id": "one",
+        "title": "Project One",
+        "intro": "Topic",
+        "detail": "Cute little description for this project.",
+        "thumbnail": "images/background/landscape.jpg",
+        "skills": [
+            "skill",
+            "skill",
+            "skill"
+        ],
+        "featured": true,
+        "links": [
+            {
+                "title": "Button",
+                "link": null
+            },
+            {
+                "title": "GitHub",
+                "link": null
+            },
+            {
+                "title": "Live link",
+                "link": null
+            }
+        ],
+        "direct-link": null,
+        "casestudy": [
+            {
+                "module": "diptech",
+                "title": "The Purpose",
+                "flipped": false,
+                "image": "images/background/landscape.jpg",
+                "text": [
+                    "This is an introductory text to the project. Describes the initial purpose.",
+                    "Include a general learning moment. Along side this text is a general image of said project."
+                ]
+            },
+            {
+                "module": "goal-block",
+                "title": "Goals",
+                "goals": [
+                    "Goal for the project",
+                    "Goal for the project",
+                    "Goal for the project",
+                    "Goal for the project"
+                ]
+            },
+            {
+                "module": "diptech",
+                "title": "The Approach",
+                "flipped": false,
+                "image": "images/background/landscape.jpg",
+                "text": [
+                    "This is an introductory text to the project. Describes the initial purpose.",
+                    "Include a general learning moment. Along side this text is a general image of said project."
+                ]
+            },
+            {
+                "module": "double-text",
+                "text-one": [
+                    "This is a text block",
+                    "This is a text block"
+                ],
+                "text-two": [
+                    "This is a text block two",
+                    "This is a text block two"
+                ]
+            },
+            {
+                "module": "diptech",
+                "title": false,
+                "flipped": true,
+                "image": "images/background/landscape.jpg",
+                "text": [
+                    "More text but flipped",
+                    "More text but flipped"
+                ]
+            },
+            {
+                "module": "double-image",
+                "imageOne": "images/background/landscape.jpg",
+                "imageTwo": "images/background/landscape.jpg"
+            }
+        ]
+    },
+    {
+        "id": "two",
+        "title": "Project Two",
+        "intro": "Topic",
+        "detail": "Cute little description for this project.",
+        "thumbnail": "images/background/landscape.jpg",
+        "skills": [
+            "skill",
+            "skill",
+            "skill"
+        ],
+        "featured": true,
+        "links": [
+            {
+                "title": "Button",
+                "link": null
+            },
+            {
+                "title": "GitHub",
+                "link": null
+            },
+            {
+                "title": "Live link",
+                "link": null
+            }
+        ],
+        "direct-link": null,
+        "images": [
+            "images/background/landscape.jpg",
+            "images/background/landscape.jpg",
+            "images/background/landscape.jpg",
+            "images/background/landscape.jpg"
+        ]
+    },
+    {
+        "id": "three",
+        "title": "Project Three",
+        "intro": "Topic",
+        "detail": "Cute little description for this project.",
+        "thumbnail": "images/background/landscape.jpg",
+        "skills": [
+            "skill",
+            "skill",
+            "skill"
+        ],
+        "featured": true,
+        "links": [
+            {
+                "title": "Button",
+                "link": null
+            },
+            {
+                "title": "GitHub",
+                "link": null
+            },
+            {
+                "title": "Live link",
+                "link": null
+            }
+        ],
+        "direct-link": null,
+        "casestudy": [
+            {
+                "module": "diptech",
+                "title": "Describe Project",
+                "flipped": false,
+                "image": "images/background/landscape.jpg",
+                "text": [
+                    "This is an introductory text to the project. Describes the initial purpose.",
+                    "Include a general learning moment. Along side this text is a general image of said project."
+                ]
+            },
+            {
+                "module": "goal-block",
+                "title": "Goals",
+                "goals": [
+                    "Goal for the project",
+                    "Goal for the project",
+                    "Goal for the project",
+                    "Goal for the project"
+                ]
+            },
+            {
+                "module": "diptech",
+                "title": "Now What?",
+                "flipped": true,
+                "image": "images/background/landscape.jpg",
+                "text": [
+                    "Another text block paired with an image. This version of the module is flipped.",
+                    "Another text block paired with an image. This version of the module is flipped."
+                ]
+            },
+            {
+                "module": "double-text",
+                "textOne": [
+                    "This is a double text block module.",
+                    "This is a double text block module."
+                ],
+                "textTwo": [
+                    "This is the second text block in this module, paired with another text block.",
+                    "This is the second text block in this module, paired with another text block."
+                ]
+            },
+            {
+                "module": "double-image",
+                "imageOne": "images/background/landscape.jpg",
+                "imageTwo": "images/background/landscape.jpg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,60 @@
+{
+    "id": "writing",
+    "title": "Landing",
+    "intro": "I write a blog. There are some good reads but there more if you subscribe!",
+    "metaImage": "https://peprojects.dev/alpha-4/jesse/images/details/table.jpg",
+    "sections": [
+        {
+            "module": "big-heading",
+            "heading": "Writings",
+            "intro": "I've written some articles detailing some of my adventures. Give them a read. "
+        },
+        {
+            "module": "grid-blog",
+            "heading": "Posts",
+            "intro": "Recent articles..",
+            "items": [
+                {
+                    "title": "A Beautiful Lie | 009",
+                    "intro": "You think you're going crazy, but you're not. You're not alone",
+                    "quote": "At this point we’ve learned ways to effectively use PHP and create a project that could take user input and create a card for that information.",
+                    "link": "https://jessedevs.substack.com/p/a-beautiful-lie-perpetual-education",
+                    "thumbnail": "images/writing/good-thing.jpg",
+                    "podcast": false
+                },
+                {
+                    "title": "Perpetual Education. So far.",
+                    "intro": "The whole shebang... so far..",
+                    "quote": "The early days were just learning about the computer and to how to turn this machine into a tool for us",
+                    "link": "https://jessedevs.substack.com/p/perpetual-education",
+                    "thumbnail": "images/writing/sky.JPG",
+                    "podcast": false
+                },
+                {
+                    "title": "고인물 [ Goinmul ] | 008",
+                    "intro": "The standing water.",
+                    "quote": "The cool thing about learning all these programming tools in PHP is that… it will translate over to other languages that we will be learning in the future.",
+                    "link": "https://jessedevs.substack.com/p/-goinmul-perpetual-education-008",
+                    "thumbnail": "images/writing/goinmul.jpg",
+                    "podcast": false
+                },
+                {
+                    "title": "Life is perspective | 007",
+                    "intro": "And my perspective may differ from yours.",
+                    "quote": "Speaking visual language is a tool that has to be mastered. Theres a lot to consider when designing a website for the world to view and critic.",
+                    "link": "https://jessedevs.substack.com/p/i-realize-life-is-perspective-perpetual",
+                    "thumbnail": "images/writing/sun.jpg",
+                    "podcast": false
+                },
+                {
+                    "title": "The more I learn | 005",
+                    "intro": "The less I know. The less I know is for the better.",
+                    "quote": "I, we started off making a boilerplate. Which, it's basically a template for our code.",
+                    "link": "https://jessedevs.substack.com/p/the-more-i-learn-perpetual-education#details",
+                    "thumbnail": "images/writing/gameboy.jpg",
+                    "podcast": true
+                }
+            ]
+        }
+    ]
+}

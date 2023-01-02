@@ -1,0 +1,146 @@
+{
+    "id": "style",
+    "title": "Style-Guide",
+    "intro": "A guide to the modules used throughout this website. You could build your own page with all this information.",
+    "metaImage": "https://peprojects.dev/alpha-4/jesse/images/details/laptop.jpg",
+    "ad": [
+        {
+            "intro": "This is a blog link",
+            "blog": null
+        }
+    ],
+    "sections": [
+        {
+            "module": "big-heading",
+            "heading": "Style-Guide",
+            "intro": "Showcasing all modules on the site!",
+            "details": ""
+        },
+        {
+            "module": "landing-heading",
+            "heading": "Landing",
+            "intro": "Cute little intro",
+            "details": "Placeholder detail text",
+            "image": "images/background/portrait.jpeg"
+        },
+        {
+            "module": "big-heading",
+            "heading": "Big Heading ",
+            "intro": "Cute short little intro",
+            "details": ""
+        },
+        {
+            "module": "project-section",
+            "heading": "Projects Section",
+            "intro": "Cute little intro",
+            "details": "",
+            "image": ""
+        },
+        {
+            "module": "about-card",
+            "heading": "About Card",
+            "intro": "Cute little intro",
+            "details": [
+                "Placeholder detail text",
+                "Multiple blocks of text!",
+                "Could always add more and more.",
+                "It loops through it all."
+            ],
+            "images": [
+                "images/background/portrait.jpeg",
+                "images/background/portrait.jpeg",
+                "images/background/portrait.jpeg",
+                "images/background/portrait.jpeg"
+            ]
+        },
+        {
+            "module": "goals-section",
+            "heading": "Goals Section",
+            "intro": "Cute little intro",
+            "lead": "Lead in for all the goals.",
+            "goals": ""
+        },
+        {
+            "module": "resume-section",
+            "heading": "Resume Section",
+            "intro": "Cute little intro"
+        },
+        {
+            "module": "grid-blog",
+            "heading": "Grid blog",
+            "intro": "Cute little intro",
+            "items": [
+                {
+                    "title": "Article title",
+                    "intro": "Little intro for article",
+                    "quote": "Quote from the article.",
+                    "link": "https://jessedevs.substack.com/p/a-beautiful-lie-perpetual-education",
+                    "thumbnail": "images/background/landscape.jpg",
+                    "podcast": false
+                },
+                {
+                    "title": "Article title",
+                    "intro": "Little intro for article",
+                    "quote": "Quote from the article.",
+                    "link": "https://jessedevs.substack.com/p/perpetual-education",
+                    "thumbnail": "images/background/landscape.jpg",
+                    "podcast": true
+                }
+            ]
+        },
+        {
+            "module": "form-grid",
+            "heading": "Form Grid",
+            "intro": "Cute little intro",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "form title",
+                    "file-name": "area"
+                },
+                {
+                    "id": 2,
+                    "title": "count-string",
+                    "file-name": "count-string"
+                }
+            ]
+        },
+        {
+            "module": "missing-heading",
+            "heading": "heading",
+            "intro": "Cute little intro",
+            "links": [
+                {
+                    "title": "home link",
+                    "link": "?page=home"
+                },
+                {
+                    "title": "projects link",
+                    "link": "?page=projects"
+                },
+                {
+                    "title": "Random link",
+                    "link": "https://www.youtube.com/watch?v=_dFjJmJdJjY"
+                },
+                {
+                    "title": "Random Link",
+                    "link": "https://www.youtube.com/results?search_query=evo+moment+37"
+                }
+            ]
+        },
+        {
+            "module": "contact-form",
+            "heading": "Contact Me",
+            "intro": "Lets talk about code? Maybe some life discussion? Or some of the latest music out?",
+            "labelOne": "NAME",
+            "holderOne": "Jesse",
+            "labelTwo": "EMAIL",
+            "labelThree": "MESSAGE",
+            "holderTwo": "Something to say..",
+            "button": "CONNECT"
+        },
+        {
+            "module": "project-page"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "404",
+    "title": "404",
+    "intro": "Welp! This page isn't a real 🤯",
+    "metaImage": "https://peprojects.dev/alpha-4/jesse/images/details/404.jpg",
+    "sections": [
+        {
+            "module": "missing-heading",
+            "heading": "404",
+            "intro": "Welp. Maybe you were looking for something else. Let's get you on the right track...",
+            "links": [
+                {
+                    "title": "home",
+                    "link": "?page=home"
+                },
+                {
+                    "title": "projects",
+                    "link": "?page=projects"
+                },
+                {
+                    "title": "Music?",
+                    "link": "https://youtu.be/_dFjJmJdJjY?t=23"
+                },
+                {
+                    "title": "Maybe?",
+                    "link": "https://youtu.be/JzS96auqau0?t=25"
+                }
+            ]
+        }
+    ]
+}

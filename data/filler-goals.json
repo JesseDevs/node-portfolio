@@ -1,0 +1,46 @@
+[
+	{
+		"title": "week",
+		"goals": [
+			"Goal One",
+			"Goal Two",
+			"Goal Three",
+			"Goal Four",
+			"Goal Five",
+			"More?"
+		]
+	},
+	{
+		"title": "month",
+		"goals": [
+			"Goal One",
+			"Goal Two",
+			"Goal Three",
+			"Goal Four",
+			"Goal Five",
+			"More?"
+		]
+	},
+	{
+		"title": "course",
+		"goals": [
+			"Goal One",
+			"Goal Two",
+			"Goal Three",
+			"Goal Four",
+			"Goal Five",
+			"More?"
+		]
+	},
+	{
+		"title": "5 years",
+		"goals": [
+			"Goal One",
+			"Goal Two",
+			"Goal Three",
+			"Goal Four",
+			"Goal Five",
+			"More?"
+		]
+	}
+]

@@ -1,0 +1,51 @@
+@import 'reset.scss';
+@import 'setup.scss';
+@import 'variables.scss';
+@import 'typography.scss';
+@import 'component.scss';
+@import 'case.scss';
+@import 'modules.scss';
+
+.intro {
+	margin-bottom: var(--general-space);
+	color: var(--highlight);
+	font-weight: 500;
+	font-size: clamp(1.2rem, 2vw, 1.4rem);
+
+	p {
+		font-weight: 500;
+	}
+}
+
+big-heading,
+landing-heading,
+missing-heading {
+	margin-top: var(--simple-bigbig);
+	margin-bottom: var(--simple-big-space);
+
+}
+
+
+big-heading,
+missing-heading {
+	animation: upFadeIn .5s forwards;
+	opacity: 0;
+	animation-delay: .3s;
+}
+
+
+input,
+textarea {
+	outline: 3px solid var(--accent);
+}
+
+input:focus,
+textarea:focus {
+	outline: 3px solid var(--highlight);
+}
+
+.gs_reveal {
+	opacity: 0;
+	visibility: hidden;
+	will-change: transform, opacity;
+}

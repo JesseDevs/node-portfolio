@@ -1,0 +1,15 @@
+diptech {
+    width: 100%;
+    display: grid;
+    gap: var(--simple-big-space);
+
+    picture {
+        margin-bottom: var(--simple-space);
+    }
+
+}
+
+diptech.flipped text-content {
+    order: 2;
+
+}

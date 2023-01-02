@@ -1,0 +1,112 @@
+missing-heading {
+	width: 100%;
+	display: block;
+	text-align: center;
+	position: relative;
+	min-height: 600px;
+
+	p {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: 20px
+	}
+
+
+	.action-link {
+		max-width: none;
+	}
+}
+
+
+.cube-sphere {
+	margin-top: var(--general-space);
+	position: relative;
+
+	height: 500px;
+	padding: 0;
+	border-radius: 50%;
+	/*	animation: circular 10s infinite linear; */
+
+}
+
+
+.cube-sphere g g {
+	stroke-width: 5px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+
+}
+
+missing-heading {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: var(--simple-space);
+}
+
+missing-heading nav {
+	grid-column: span 4;
+}
+
+missing-heading text-content {
+	grid-column: span 4;
+}
+
+missing-heading .cube-sphere {
+	grid-column: span 4;
+}
+
+@media(min-width: 500px) {
+	missing-heading nav ul {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		column-gap: var(--simple-space);
+	}
+
+	missing-heading ul li:nth-child(odd) {
+		grid-column: 1 /span 2;
+	}
+
+
+	missing-heading ul li:nth-child(even) {
+		grid-column: 3 /span 2;
+	}
+}
+
+@media(min-width: 800px) {
+
+	missing-heading text-content {
+		animation: rightFadeIn 2s;
+	}
+
+	missing-heading nav {
+		grid-column: 3/ span 2;
+		order: 2;
+		z-index: 2
+	}
+
+	missing-heading text-content {
+		grid-column: 3/ span 2;
+		order: 1;
+		z-index: 2;
+	}
+
+	missing-heading .cube-sphere {
+
+		order: 3;
+		grid-column: 1/ span 2;
+		position: absolute;
+		top: 0;
+		left: 5%;
+		margin: 0;
+		scale: 1.2;
+		z-index: 1;
+		animation: circular 12s infinite linear;
+	}
+
+
+}

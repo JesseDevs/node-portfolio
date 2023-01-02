@@ -1,0 +1,47 @@
+resume-card,
+resume-section {
+	display: block;
+	width: 100%;
+}
+
+resume-section h4 {
+	margin-bottom: var(--simple-space);
+}
+
+resume-section h4:last-of-type {
+	margin-bottom: var(--simple-space);
+	padding-top: var(--simple-space);
+
+	border-top: var(--thin) solid var(--cube-line);
+}
+
+@media(min-width: 800px) {
+
+	resume-section {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		column-gap: var(--simple-big-space);
+	}
+
+	resume-section>text-content {
+
+		grid-column: span 2;
+	}
+
+	resume-section h4 {
+		grid-column: 1 / span 4;
+	}
+
+	resume-card:nth-of-type(odd) {
+		grid-column: 1 /span 2;
+	}
+
+
+	resume-card:nth-of-type(even) {
+		grid-column: 3 /span 2;
+
+	}
+
+
+
+}

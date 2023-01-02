@@ -1,0 +1,31 @@
+project-section {
+	width: 100%;
+	display: block;
+}
+
+
+@media (min-width: 850px) {
+
+	project-section,
+	small-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		column-gap: var(--simple-big-space);
+	}
+
+	project-section text-content,
+	small-grid text-content {
+		grid-column: span 4;
+	}
+
+	project-section project-card {
+		grid-column: span 4;
+	}
+
+	project-section project-card:not(:first-of-type),
+	small-grid project-card {
+		grid-column: span 2;
+		padding-bottom: var(--tight-space);
+	}
+
+}

@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "title": "hello",
+        "button": "hello",
+        "file-name": "hello",
+        "intro": "Welcome message for you"
+    },
+    {
+        "id": 3,
+        "title": "quote",
+        "button": "quote",
+        "file-name": "quote",
+        "intro": "Famous quote said by a person"
+    },
+    {
+        "id": 4,
+        "title": "madlib",
+        "button": "madlib",
+        "file-name": "madlib",
+        "intro": "Building out a phrase"
+    },
+    {
+        "id": 6,
+        "title": "retirement",
+        "button": "retirement",
+        "file-name": "retire",
+        "intro": "Retirement isn't too far away"
+    },
+    {
+        "id": 8,
+        "title": "area",
+        "file-name": "area",
+        "intro": "Calculate the area of the room in feet?"
+    },
+    {
+        "id": 9,
+        "title": "count string",
+        "file-name": "count-string",
+        "intro": "Count the characters in your word."
+    },
+    {
+        "id": 10,
+        "title": "driving age",
+        "file-name": "driving-age",
+        "intro": "Can you drive??!"
+    },
+    {
+        "id": 11,
+        "title": "interest",
+        "file-name": "interest",
+        "intro": "Simple Interest Computing [ Annually ]"
+    },
+    {
+        "id": 12,
+        "title": "paint",
+        "file-name": "paint-calc",
+        "intro": "How many gallons of paint do you need to cover the entire ceiling?"
+    },
+    {
+        "id": 13,
+        "title": "password",
+        "file-name": "password-check",
+        "intro": "Login Check!"
+    },
+    {
+        "id": 14,
+        "title": "checkout",
+        "file-name": "self-checkout",
+        "intro": "You can check yourself out here!"
+    },
+    {
+        "id": 15,
+        "title": "simple math",
+        "file-name": "simple-math",
+        "intro": "Lets do some simple math?"
+    }
+]

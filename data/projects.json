@@ -1,0 +1,292 @@
+[
+    {
+        "id": "crud",
+        "title": "Fighters: CRUD",
+        "intro": "crud",
+        "detail": "This project uses fighters from the video game Street Fighter and the concept of <a href='https://developer.mozilla.org/en-US/docs/Glossary/CRUD'>CRUD</a> to create a database system. ",
+        "one-line": "Database backed by JSON data",
+        "thumbnail": "images/projects/fighters/fighters.jpg",
+        "skills": [
+            "html",
+            "css",
+            "php",
+            "json"
+        ],
+        "featured": true,
+        "links": [
+            {
+                "title": "Details",
+                "link": "?page=project&id=crud"
+            },
+            {
+                "title": "GitHub",
+                "link": "https://github.com/JesseDevs/pe-projects/tree/main/projects/fighters-crud"
+            },
+            {
+                "title": "Live",
+                "link": "https://peprojects.dev/alpha-4/jesse/projects/fighters-crud/"
+            }
+        ],
+        "direct-link": "https://peprojects.dev/alpha-4/jesse/projects/fighters-crud",
+        "casestudy": [
+            {
+                "module": "diptech",
+                "title": "The Purpose",
+                "flipped": false,
+                "image": "images/projects/fighters/landing-button.webp",
+                "text": [
+                    "This project was to build a create, read, update, and delete database. This database would be generated using JSON data to show skills in acquiring and using data from any source.",
+                    "The data would be used and altered using PHP, then displayed on the website in a clean and responsive fashion. Forms would be made to accept user input and add new information to the data."
+                ]
+            },
+            {
+                "module": "goal-block",
+                "title": "Goals",
+                "goals": [
+                    "Research CRUD projects.",
+                    "Utilize or gather JSON data.",
+                    "Turn data into PHP via a function.",
+                    "Create a multi layered website with pages for properly displaying information.",
+                    "Use PHP to create multiple sections, active pages, detail pages for data.",
+                    "Create forms that will accept user input that is converted into an object and placed in a JSON data file.",
+                    "Style web page to be accessible for users."
+                ]
+            },
+            {
+                "module": "diptech",
+                "title": "The Approach",
+                "flipped": false,
+                "image": "images/projects/fighters/fighter-landing.webp",
+                "text": [
+                    "My characters all share a trait under the idea of a playstyle. These playstyles play part in how the character fights and thus was a great value to use to filter the data to show something the user would prefer.",
+                    "I made a home page that contained a title and text under it. The title would then link to the list of character data that is filtered to the specific choice by the user. You could then adjust your choice on the list page or on the home page enter the list page through the main landing button.",
+                    "I learned to take a step back and think as a user on my own sites, what if I were to do this, do that, want this, and want that. Options and more options. It is my website and I get to guide the experience of the user."
+                ]
+            },
+            {
+                "module": "double-text",
+                "text-one": [
+                    "It all started with displaying the current JSON data. Making a list page to go through the data and display the elements. The objects in my data were structured to have names, images, descriptions, and other information. With the current data I decided to make a list of cards to display a thumbnail that leads to a page with more information."
+                ],
+                "text-two": [
+                    "Now that I had a list page, I needed a way to direct users towards that page. In PHP we can use $_GET to obtain a variable given in the URL of the current page. The querystring.",
+                    "This allows me to create a routing system that can then lead to any page I would want the user to have access to, which could be the home page, list page, a detail page, a form page, or even a random page."
+                ]
+            },
+            {
+                "module": "diptech",
+                "title": false,
+                "flipped": true,
+                "image": "images/projects/fighters/fighter-menu.webp",
+                "text": [
+                    "I created a filter system to see specific characters that the user is looking for. Although, the user may not be familiar with the characters so I chose to give some small details about the parameter I am planning to use to separate them.",
+                    "The filter system goes through the data and checks this parameter for its “playstyle” and then presents those individuals, the others become unclickable."
+                ]
+            },
+            {
+                "module": "double-image",
+                "imageOne": "images/projects/fighters/detail.webp",
+                "imageTwo": "images/projects/fighters/create-fighter.webp"
+            }
+        ]
+    },
+    {
+        "id": "bill",
+        "title": "Bill Split",
+        "intro": "APP",
+        "detail": "An app dedicated to solving one of life's many problems.. splitting the bill amongst a group.",
+        "thumbnail": "images/projects/bill/bank.jpg",
+        "one-line": "Javascript calculations",
+        "skills": [
+            "html",
+            "css",
+            "javascript"
+        ],
+        "featured": true,
+        "links": [
+            {
+                "title": "Details",
+                "link": "?page=project&id=bill"
+            },
+            {
+                "title": "GitHub",
+                "link": "https://github.com/JesseDevs/pe-projects/tree/main/projects/bill-app"
+            },
+            {
+                "title": "Live",
+                "link": "https://peprojects.dev/alpha-4/jesse/projects/bill-app/"
+            }
+        ],
+        "direct-link": "https://peprojects.dev/alpha-4/jesse/projects/bill-app",
+        "casestudy": [
+            {
+                "module": "diptech",
+                "title": "The Purpose",
+                "flipped": false,
+                "image": "images/projects/bill/landing.webp",
+                "text": [
+                    "The goal of this project was to get myself and others away from a calculator app when the bill arrives at the table. This app would be a one way stop to gather the total amount, take the tip and then check if you’d like to split it amongst the group.",
+                    "Javascript provides the buttons with capabilities of loading new template pages to the output box on the landing page, to create a seamless experience for the user. In addition to loading these templates, create functions that will calculate all the necessary math and display it to the user. ",
+                    "Present all the information to the user and keep it simple, understandable, and frictionless. "
+                ]
+            },
+            {
+                "module": "goal-block",
+                "title": "Goals",
+                "goals": [
+                    "Look into bill sharing projects.",
+                    "Create a layout of “pages” that would be the ideal path for the user.",
+                    "Turn the layout into template variables in Javascript.",
+                    "Use “data-route” buttons to guide the user down the path to calculate information.",
+                    "Figure out what calculations are needed to present all information to the user.",
+                    "Create functions for said calculations and how to output them.",
+                    "Organize variables for output fields, numerical amounts, and items to click.",
+                    "Stylize app to make use of some new little tricks to display cool techniques to the user."
+                ]
+            },
+            {
+                "module": "diptech",
+                "title": "The Approach",
+                "flipped": false,
+                "image": "images/projects/bill/figma.webp",
+                "text": [
+                    "I started with the idea of making different templates that would represent the pages that would appear on the app. When I thought of the idea, I led with a homepage that would allow an input of an amount - ideally an amount that you receive on a bill at the table.",
+                    "Next, I wanted to lead the user to a tip page. On this page the user would scroll to select the percentage of tip they would like to add to their meal. I chose to make a slider range value input because I thought it would be interesting and give me the opportunity to use Javascript to grab the value and live update the amounts on display."
+                ]
+            },
+            {
+                "module": "double-image",
+                "imageOne": "images/projects/bill/tip.webp",
+                "imageTwo": "images/projects/bill/tip-code.webp"
+            },
+            {
+                "module": "double-text",
+                "text-one": [
+                    "A challenge was setting up buttons so that they would route towards a specific page but also make them take the input and show calculations. I had originally set up an event listener on the window that was looking specifically for clicks and if those clicked items matched a “data-route” that I had set up.",
+                    "I soon learned that I needed an additional set up to listen for an input so that I could grab the value. When the input value is entered it then displays it for the user to see live changes to their amounts.",
+                    "I revisited my initial set up so that it could listen for clicks on buttons ID classes to then do the appropriate function."
+                ],
+                "text-two": [
+                    "I worked through some blockers and was able to build the base version of my app that accomplished the goal I had set out at the very beginning. Take an amount, calculate a tip percentage, split it by an amount of people and share the amount to the user.",
+                    "Now that some style is in place, the information is displayed to the user, and the base path was set up, it was time to get some feedback to see some paths I may not have considered."
+                ]
+            },
+            {
+                "module": "diptech",
+                "title": "Feedback",
+                "flipped": true,
+                "image": "images/projects/bill/split.webp",
+                "text": [
+                    "Although there were a lot of positive interactions with the app, there were some hiccups that caused friction in the user's experience or at least made them second guess themselves.",
+                    "A big note was that the input fields were not legible, they didn't seem clickable. To compensate for this I added a border and focus changes when typing a value and made the question in the label element more direct and simple. I took some time to add some attributes to the element so that when opened on mobile, it would prompt a number pad similar to a phone contact."
+                ]
+            },
+            {
+                "module": "double-text",
+                "title": "More Feedback",
+                "text-one": [
+                    "The input range field was originally displayed vertically because I thought it would be more intuitive for the user to adjust their tip amount but it actually hurt their impression more than anything.",
+                    "Not only was it assumed to be a write in field similar to the other menu but the slider did not read as a slider on the first viewing.",
+                    "To account for this I added a default value to be presented in the box and returned the slider back to its original horizontal position."
+                ],
+                "text-two": [
+                    "The goal of the site was to be able to calculate the tip for a total but that doesn’t mean a user always wants to tip or give a custom amount. What about a set amount? What about no tip? At this point I reviewed my buttons and tried to analyze more situations the user might go through to give them more options but still in my control.",
+                    "I also added an edit button so if the group were to split the amount among more or less people, they could go back to the total and adjust the amount of people."
+                ]
+            },
+            {
+                "module": "diptech",
+                "title": "Learning",
+                "flipped": false,
+                "image": "images/projects/bill/total.webp",
+                "text": [
+                    "This project gave me the opportunity to take a look at a simple problem or circumstance and provide a solution for it. This took time to solve all the interworking pieces and functions that would come together to showcase all the proper information.",
+                    "As a designer I also realize how important it is to give the user an enjoyable experience and make it readable to all on the first go through.",
+                    "It is my responsibility as the Frontend Developer to shape an enjoyable, functional, and frictionless experience."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "theme",
+        "title": "Theme Challenge",
+        "intro": "theme",
+        "detail": "A project taking a templated out structure and crafting it to match an industry standard website. My focus was based on sports news outlets.",
+        "thumbnail": "images/projects/theme/basket.jpeg",
+        "skills": [
+            "html",
+            "css",
+            "php"
+        ],
+        "featured": true,
+        "links": [
+            {
+                "title": "Details"
+            },
+            {
+                "title": "GitHub",
+                "link": "https://github.com/JesseDevs/pe-projects/tree/main/projects/theme-challenge"
+            },
+            {
+                "title": "Live",
+                "link": "https://peprojects.dev/alpha-4/jesse/projects/theme-challenge/"
+            }
+        ],
+        "direct-link": "https://peprojects.dev/alpha-4/jesse/projects/theme-challenge"
+    },
+    {
+        "id": "legends",
+        "title": "Legends",
+        "intro": "php",
+        "detail": "The key points of this project is looping through data, specifc data styling, and a responsive layout for file path.",
+        "thumbnail": "images/projects/legends/legend.jpeg",
+        "skills": [
+            "html",
+            "css",
+            "php",
+            "json"
+        ],
+        "featured": false,
+        "links": [
+            {
+                "title": "Details"
+            },
+            {
+                "title": "GitHub",
+                "link": "https://github.com/JesseDevs/pe-projects/tree/main/projects/legends"
+            },
+            {
+                "title": "Live",
+                "link": "https://peprojects.dev/alpha-4/jesse/projects/legends/"
+            }
+        ],
+        "direct-link": "https://peprojects.dev/alpha-4/jesse/projects/legends"
+    },
+    {
+        "id": "layout-garden",
+        "title": "Layout",
+        "intro": "Garden",
+        "detail": "This project takes some time to analyze some more complicated layout designs. Combining these together to form a layout garden for viewing.",
+        "thumbnail": "./images/projects/garden/layout.jpeg",
+        "skills": [
+            "html",
+            "css",
+            "php"
+        ],
+        "featured": false,
+        "links": [
+            {
+                "title": "Details"
+            },
+            {
+                "title": "GitHub",
+                "link": "https://github.com/JesseDevs/pe-projects/tree/main/projects/layouts"
+            },
+            {
+                "title": "Live",
+                "link": "https://peprojects.dev/alpha-4/jesse/projects/layouts/"
+            }
+        ],
+        "direct-link": "https://peprojects.dev/alpha-4/jesse/projects/layouts"
+    }
+]

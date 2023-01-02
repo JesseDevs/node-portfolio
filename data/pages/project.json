@@ -1,0 +1,22 @@
+{
+    "id": "detail",
+    "title": "Project",
+    "intro": "This is a case-study for one of my amazing projects.",
+    "metaImage": "https://peprojects.dev/alpha-4/jesse/images/details/spark.jpg",
+    "sections": [
+        {
+            "module": "big-heading",
+            "intro": "Database backed by JSON data"
+        },
+        {
+            "module": "project-page"
+        },
+        {
+            "module": "small-grid",
+            "heading": "Other projects",
+            "intro": "Just a click away",
+            "details": "",
+            "image": ""
+        }
+    ]
+}

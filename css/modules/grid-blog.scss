@@ -1,0 +1,21 @@
+grid-blog{
+	display: block;
+	width: 100%;
+}
+
+grid-blog ul{
+	margin-top: var(--tight-space);
+	margin-bottom: var(--tight-space);
+}
+
+grid-blog li{
+	margin-bottom: 80px;
+}
+
+iframe{
+	width: 100%;
+}
+
+div.blog{
+	margin: var(--general-space) auto;
+}
